@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Repository - Michelle Sanford</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 10px;
+            background-color: #005f73;
+            color: white;
+        }
+        section {
+            margin: 20px 0;
+        }
+        h2 {
+            color: #005f73;
+        }
+        .upload-section {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        input[type="file"] {
+            margin: 10px 0;
+        }
+        .docs-container {
+            margin-top: 20px;
+        }
+        .doc-category {
+            background-color: #e0fbfc;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Michelle Sanford's Document Repository</h1>
+    </header>
+
+    <!-- Upload Section -->
+    <section class="upload-section">
+        <h2>Upload New Document</h2>
+        <form>
+            <label for="fileUpload">Choose a file to upload:</label><br>
+            <input type="file" id="fileUpload" name="fileUpload"><br><br>
+            <input type="submit" value="Upload Document">
+        </form>
+    </section>
+
+    <!-- Document Categories -->
+    <section class="docs-container">
+        <h2>Documents</h2>
+        
+        <!-- Projects -->
+        <div class="doc-category">
+            <h3>Projects</h3>
+            <p>List of project documents...</p>
+        </div>
+
+        <!-- Technical Documents -->
+        <div class="doc-category">
+            <h3>Technical Documents</h3>
+            <p>List of technical documents...</p>
+        </div>
+
+        <!-- Requirements Notes -->
+        <div class="doc-category">
+            <h3>Requirements Notes</h3>
+            <p>List of requirements notes...</p>
+        </div>
+    </section>
+
+    <!-- Placeholder for Google Drive Integration -->
+    <section>
+        <h2>Connect with Google Drive</h2>
+        <p>Google Drive integration will allow you to sync documents from your Drive directly into the repository.</p>
+        <button>Connect Google Drive</button>
+    </section>
+</body>
+</html>
